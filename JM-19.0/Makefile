@@ -24,6 +24,7 @@ else
 	CFLAGS+=-Wno-unused-but-set-variable
 endif
 
+CFLAGS+=-std=c11 -std=gnu11 -fcommon
 export DBG
 export STC 
 export M32
